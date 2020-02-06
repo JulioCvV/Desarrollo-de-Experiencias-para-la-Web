@@ -1,0 +1,24 @@
+.o-info-container{
+    width: 100vw;
+    background-color: cornflowerblue;
+}
+.o-img-profile{
+    height: 10rem;
+}
+.o-portfolio-container{
+    margin: 2rem 5rem 1rem 0;
+    padding: 1rem;
+    background-color: coral;
+}
+.o-portfolio-container .o-project {
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#project2{
+    background-color: gold;
+}
+.o-brown{
+    background-color: brown;
+}
