@@ -1,24 +1,36 @@
-.o-info-container{
-    width: 100vw;
-    background-color: cornflowerblue;
+h1,h2,h3{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
 }
-.o-img-profile{
-    height: 10rem;
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+}
+.o-info-container, .o-portfolio-container{
+    margin: 1rem;
+}
+.o-info-container{
+    padding: 2rem;
+}
+.o-info-extra-container, .o-project{
+    display: flex;
 }
 .o-portfolio-container{
-    margin: 2rem 5rem 1rem 0;
-    padding: 1rem;
-    background-color: coral;
+    padding: 0 2rem 2rem 2rem;
 }
-.o-portfolio-container .o-project {
-    background-color: white;
-    margin: 1rem;
-    padding: 1rem;
+.o-img-project{
+    width: 15rem;
+    height: 15rem;
 }
-
-#project2{
-    background-color: gold;
+.o-project{
+    margin: 1rem 0 1rem 0;
+    padding: 0.1rem;
+    border: 0.1rem solid lightgray;
+    border-radius: 0 0.5rem 0.5rem 0;
 }
-.o-brown{
-    background-color: brown;
+#contactInfoContainer, .o-description-project{
+    margin: 0 1.5rem 0 1.5rem;
+}
+.o-img-profile{
+    width: 10rem;
 }
